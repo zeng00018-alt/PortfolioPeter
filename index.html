@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio - Peter</title>
+    <link rel="stylesheet" href="styleP.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<div id="loader">
+    <h1 class="logo">Bienvenue sur mon portfolio</h1>
+</div>
+<body>
+
+<header id="home">
+    <h1 class="fade-in">Peter Zeng</h1>
+    <p class="fade-in delay">Développeur Web, Marketing Digital & E-Commerce</p>
+
+</header>
+
+<nav id="navbar">
+    <a href="#about">À propos</a>
+    <a href="#projects">Projets</a>
+    <a href="#skills">Compétences</a>
+    <a href="#contact">Contacts</a>
+</nav>
+
+<section id="about" class="reveal">
+    <h2>À propos</h2>
+    <p>
+        Étudiant en informatique d’entreprise avec des compétences en HTML/CSS JavaScript, Oracle, SQL, E-Commerce et marketing digital.
+        Je combine technologie et business pour créer des solutions digitales efficaces.
+    </p>
+</section>
+<section id="projects">
+    <h2 class="reveal">Projets</h2>
+<div class="card reveal">
+    
+    <div class="card-header">
+        <img src="logo.png.jpg" alt="Logo application">
+        <h3>ZengBudget</h3>
+    </div>
+
+    <p>
+    Développement d’une application de suivi financier personnel
+Conception de la base de données (localStorage)
+Implémentation des opérations (ajout, modification, suppression, affichage,exportation,visualisation graphique)
+Logique de calcul et d’analyse des dépenses
+Approche orientée utilisateur et optimisation de l’expérience.
+
+    </p>
+    <div class="slider">
+
+    <button class="prev" onclick="scrollSlider(-1)">❮</button>
+
+    <div class="slider-container" id="slider">
+        <img src="img1.png" alt="screenshot">
+        <img src="img2.png" alt="screenshot">
+        <img src="img3.png" alt="screenshot">
+        <img src="img4.png" alt="screenshot">
+        <img src="img5.png" alt="screenshot">
+        <img src="img6.png" alt="screenshot">
+        <img src="img7.png" alt="screenshot">
+        <img src="img8.png" alt="screenshot">
+    </div>
+
+    <button class="next" onclick="scrollSlider(1)">❯</button>
+
+</div>
+
+</div>
+  
+
+</section>
+
+<section id="skills">
+    <h2 class="reveal">Compétences techniques</h2>
+    <div class="skills">
+        <div class="skill">SQL</div>
+        <div class="skill">HTML/CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Oracle</div>
+        <div class="skill">Marketing digital</div>
+        <div class="skill">Shopify</div>
+        <div class="skill">Sage 100 comptabilité</div>
+        <div Class= "skill">Excel</div>
+
+    </div>
+</section>
+
+<section id="contact" class="reveal">
+    <h2>Contacts</h2>
+    <p>Email : zeng00018@gmail.com</p>
+    <p>Téléphone : +216 28782355</p>
+</section>
+
+<footer>
+    <p>© 2026 Peter Zeng</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
